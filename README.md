@@ -1,12 +1,97 @@
-# React + Vite
+# Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and user-friendly currency converter built with React and Vite. Convert between different currencies with real-time exchange rates.
 
-Currently, two official plugins are available:
+![Currency Converter Screenshot](https://images.pexels.com/photos/1629172/pexels-photo-1629172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- 🔄 Real-time currency conversion
+- 💱 Support for multiple currencies
+- 🎨 Modern and responsive design
+- 🌟 Interactive UI with smooth animations
+- 💫 Quick currency swap functionality
+- 🎯 Precise conversion rates
+- 🖥️ Clean and intuitive interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React 18
+- Vite
+- Tailwind CSS
+- Custom Hooks
+- RESTful API for currency rates
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or above)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone <your-repo-url>
+   ```
+
+2. Navigate to the project directory
+   ```bash
+   cd currency-convertor
+   ```
+
+3. Install dependencies
+   ```bash
+   npm install
+   ```
+
+4. Start the development server
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit `http://localhost:5173`
+
+## Usage
+
+1. Enter the amount you want to convert in the "From" field
+2. Select the source currency from the dropdown
+3. Select the target currency from the "To" dropdown
+4. Click "Convert" to see the result
+5. Use the "Swap" button to quickly switch between currencies
+
+## Project Structure
+
+```
+currency-convertor/
+├── src/
+│   ├── components/
+│   │   ├── InputBox.jsx
+│   │   └── index.js
+│   ├── hooks/
+│   │   └── useCurrencyInfo.js
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+├── index.html
+└── package.json
+```
+
+## Contributing
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- Background image from [Pexels](https://www.pexels.com)
+- Currency exchange rates API
+- React and Vite communities
