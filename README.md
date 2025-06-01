@@ -2,7 +2,7 @@
 
 A modern and user-friendly currency converter built with React and Vite. Convert between different currencies with real-time exchange rates.
 
-![Currency Converter Screenshot](https://images.pexels.com/photos/1629172/pexels-photo-1629172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+
 
 ## Features
 
